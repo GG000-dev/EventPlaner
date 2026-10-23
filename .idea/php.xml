@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 35e7038ec65ce9084621df38ce42b3eadad26684
   <component name="MessDetectorOptionsConfiguration">
     <option name="transferred" value="true" />
   </component>
@@ -10,6 +14,11 @@
     <option name="highlightLevel" value="WARNING" />
     <option name="transferred" value="true" />
   </component>
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 3344aefb8b99249de78b8e46af3d4305c1f3de22
+>>>>>>> 35e7038ec65ce9084621df38ce42b3eadad26684
   <component name="PhpStanOptionsConfiguration">
     <option name="transferred" value="true" />
   </component>
