@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kalender</title>
+</head>
+<body>
+
+
+    <div id="Kalender">
+
+    </div>
+
+
+
+
+<script>
+
+
+
+    const Kalender = {
+        currentKalender: {},
+        time: function() {
+            return new Date();
+        },
+
+        generateKalender: function(count = 7) {
+            for(let i = 0; i < count; i++){
+                let Tage = this.time + count;
+                this.currentWeek[i] = Tage.getDay();
+            }
+        },
+        update: function(){
+            var kalender = document.getElementById("Kalender");
+            for(this.currentKalender in day){
+                let div = document.createElement("div");
+                div.innerText = day;
+            }
+        }
+    }
+</script>
+</body>
+</html>
