@@ -1,7 +1,35 @@
+version: "3.8"
+
 services:
   app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+
+
+    ports:
+      - "8080:8081"
+    volumes:
+      - .:/code
+    networks:
+      - db-network
+    depends_on:
+      db:
+        condition: service_healthy
 
   db:
     image:
       postgres
+    networks:
+      - db_network
+    volumes:
+      - postgres-data:/data
+
+volumes:
+  db:
+
+networks:
+  db-network:
+    driver: bridge
 
