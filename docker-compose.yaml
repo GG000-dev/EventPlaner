@@ -1,3 +1,7 @@
 services:
   app:
-    dockerfile: Dockerfile
+
+  db:
+    image:
+      postgres
+
