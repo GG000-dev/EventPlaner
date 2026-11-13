@@ -11,12 +11,11 @@
 
     </nav>
 </header>
-
-    <form action="index.php" method="post">
-        <input type="text">
-        <input type="text">
-        <small>Dont have an Account <a href="index.html?registration=true">Registrieren</a></small>
-        <button>notify</button>
-    </form>
+<form action="index.php" method="POST">
+    <input name="user" required><br>
+    <input name="password" type="password" required><br>
+    <button name="reg">Registrieren</button>
+    <button name="login">Login</button>
+</form>
 </body>
 </html>
